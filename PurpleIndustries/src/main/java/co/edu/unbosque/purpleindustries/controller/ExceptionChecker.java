@@ -38,7 +38,7 @@ public class ExceptionChecker {
 		}
 
 		if (id > 999999999) {
-			throw new OutOfRangeException("id", "1 - 999999999");
+			throw new OutOfRangeException("id", "1 - 9999999999");
 		}
 	}
 

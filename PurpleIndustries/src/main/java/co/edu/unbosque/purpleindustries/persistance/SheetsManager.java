@@ -31,11 +31,11 @@ public class SheetsManager {
 
 	private static Sheets sheetService;
 	private static String APLICATION_NAME = "Google Sheets Example";
-	private static String SPREADSHEET_ID = "11NjKsgqZMBG9B2587FTMb1l85YKrz2nt1ZqbILoJuPk";
+	private static String SPREADSHEET_ID = "1GG7eWByvVlWKzcgyYBlHTw_CNUjWros9LkZcIxcKHj0";
 
 	private static Credential authorize() {
 		try {
-			InputStream in = SheetsManager.class.getResourceAsStream("/credentials.json");
+			InputStream in = SheetsManager.class.getResourceAsStream("/credenciales.json");
 
 			GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(GsonFactory.getDefaultInstance(),
 					new InputStreamReader(in));
